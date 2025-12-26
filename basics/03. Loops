@@ -1,0 +1,26 @@
+Loops are used to repeat tasks automatically without writing the same code multiple times.
+
+i. For Loop
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+Explanation:
+The for loop iterates over each item in a sequence (like a list).
+fruit is a temporary variable that represents the current item in the list during each iteration.
+Every time the loop runs, it prints the current fruit.
+
+ii. While Loop
+
+count = 0
+while count < 5:
+    print("Count:", count)
+    count += 1
+
+Explanation:
+The while loop repeats as long as the condition (count < 5) is true.
+count += 1 increases count by 1 each time, preventing an infinite loop.
+Use break to exit a loop early or continue to skip to the next iteration.
+Why it matters:
+Loops make your code efficient and scalable, especially when dealing with repetitive tasks like processing lists or running calculations multiple times.
