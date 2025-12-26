@@ -1,2 +1,8 @@
-# python-notes
-Clean and organized notes on Python programming fundamentals and Object-Oriented Programming.
+This directory contains notes on:
+- Variables and data types
+- Input and output
+- Conditional statements
+- Loops
+- Functions
+
+These notes reflect my ongoing Python learning journey.
