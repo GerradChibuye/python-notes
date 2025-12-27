@@ -1,0 +1,65 @@
+ 1. Variables and Data Types in Python
+
+🔹 What Is a Variable? 
+
+A variable is a name used to store data in memory.
+Python automatically determines the data type based on the value assigned.
+
+x = 10 name = "Gerrad" 
+
+In Python, you do not need to declare the data type explicitly.
+
+🔹 Rules for Naming Variables 
+  - Must start with a letter or underscore (_) 
+  - Cannot start with a number
+  - Cannot use Python keywords Should be descriptive and meaningful 
+
+✅ Valid:
+
+age = 20 user_name = "Alex" _total = 100 
+
+❌ Invalid:
+
+2name = "John" class = "Math" 🔹 Common Python Data Types 1. Integer (int) 
+
+Whole numbers without decimals.
+
+age = 25 count = 100 2. Float (float) 
+
+Numbers with decimal points.
+
+price = 19.99 temperature = 36.5 3. String (str) 
+
+Text enclosed in quotes.
+
+name = "Gerrad" course = 'Python Programming' 4. Boolean (bool) 
+
+Represents True or False.
+
+is_student = True is_logged_in = False 🔹 Checking a Variable’s Data Type 
+
+Use the type() function:
+
+x = 10 print(type(x)) 
+
+Output:
+
+<class 'int'> 🔹 Multiple Assignment 
+
+You can assign multiple variables at once:
+
+a, b, c = 1, 2, 3 
+
+Or assign the same value:
+
+x = y = z = 0 🔹 Why Variables Matter 
+
+Variables allow programs to:
+
+Store data Perform calculations Make decisions Reuse values efficiently 
+
+They are the foundation of all Python programs.
+
+✨ Key Takeaway 
+
+Understanding variables and data types is essential for writing clear, readable, and reliable Python code.
