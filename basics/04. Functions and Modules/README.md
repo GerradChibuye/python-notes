@@ -1,5 +1,3 @@
-Perfect! Functions & Modules
-
 1. What is a Function?
 
 A function is a block of reusable code designed to perform a specific task.
